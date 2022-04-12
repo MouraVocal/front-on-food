@@ -1,8 +1,12 @@
 import type { NextPage } from 'next'
+import { Footer, Header } from '@/components'
 
 const Home: NextPage = () => {
   return (
-    <h1>Hello World</h1>
+    <>
+      <Header />
+      <Footer />
+    </>
   )
 }
 
